@@ -1,0 +1,23 @@
+Data Modeling Planning:
+
+Pet Adoption Agency: you will rescue and care for animals
+Try to find them owners who are a good match:
+
+
+Tables: at least 4 tables
+1. Animal Table: Info about each animalr in the agency.
+	-Name, Age, Gender, Weight, Breed, Species
+2. Species Table: Info about different species
+	-
+3. Breed Table: Info about diff breeds
+	-Name of breed, physical characteristics, temperament, lifespan
+4. Adoption Table:Info about each adoption
+	-Date of Adoption, Owner Name, Contact, and Animal ID (from Animal Table?)
+	
+Relationships:
+Adoption Table & Animal Table: one-to-one relationship 
+	-One animal on adoption table will relate to one in animal table
+Breed Table & Animal Table: one-to-many relationship.
+	-Many individual animals in the animal table can belong to 1 breed.
+Species Table & Animal Table: one-to-many relationship.
+	-Many individual animals in the animal table can belong to 1 species.
